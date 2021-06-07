@@ -7,10 +7,12 @@
 <title>HEEJIN HAN</title>
 </head>
 <body>
-<a href="intro">소개</a>
-<a href="info">정보</a>
-<a href="skill">기술</a>
-<a href="hobby">취미</a>
-<a href="mail">WITH</a>
+<nav>
+<a href="intro" target="" title="">소개</a> &nbsp;|&nbsp;
+<a href="info" target="" title="">정보</a> &nbsp;|&nbsp;
+<a href="skill" target="" title="">기술</a> &nbsp;|&nbsp;
+<a href="hobby" target="" title="">취미</a> &nbsp;|&nbsp;
+<a href="mail" target="" title="">WITH</a>
+</nav>
 </body>
 </html>

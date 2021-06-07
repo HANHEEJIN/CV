@@ -1,0 +1,96 @@
+<style>
+	/* 스타일 초기화 */
+	* {	margin : 0; padding : 0; }
+	header, body, footer {font-size : 14px; font-family: inherit, 나눔고딕, 굴림, 돋움, 
+						'Times New Roman', serif; width: 100%;}
+	header, footer { text-align : center;}
+	body { margin : auto;}
+	footer { position : fixed; bottom : 0px;}
+	
+	h6 {color : #747474;}
+	hr {margin : 5px; margin-left : 25px; margin-right : 25px;}
+	h1 { margin : 1px;}
+	
+	/*nav*/
+	.ts {
+		background-image:url('/cv/resources/img/a.jpg'); 
+		 background-size:100%; background-repeat: repeat-x;
+		display: block; font-size: 40px; text-shadow: 1px 1px 1px gray; color :black; 
+		margin: 20px; padding: 5px; }
+
+	a {text-decoration: none; color : #747474;}
+
+	
+/**/
+	#mainHeader {padding : 0; background-color: #FAFAFA;  color : #747474;}
+   
+	#mainBody { margin : auto; background: url('/cv/resources/img/a.jpg') no-repeat center center fixed; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: 100% 100%;}
+           
+	.container {
+		text-align: center;
+		position: absolute; top: 50%;	left: 50%;
+		margin: 0 auto;
+		background: rgba(255, 255, 255, 0.9);
+		margin-left:-150px; margin-top:-150px;
+		width : 300px; height: 300px;
+		border-radius : 5%;
+	}
+	
+	@media only screen and (min-width : 321px) and (orientation : landscape)
+	{
+		section { width : 60%; float : left; }
+		aside { width : 40%; text-align : center; float : right; }
+		footer { clear : both;}
+	}
+	
+	section { margin-top : 10px; text-align:center; }
+	aside { margin-top : 10px; text-align:center; }
+	#aside_box {border : 1px solid silver; padding:1px; margin : 0 30px 30px 30px;}
+	
+	nav {padding:10px; text-align:center; font-size : 15px;}
+	
+	
+	/* info 중앙정렬*/
+	.cen_sect {width : 60%; margin:auto; }
+	
+	
+	.cen_sect1 {text-align:justify; border : 1px solid silver; padding: 10px 20px 10px 20px; margin : 0 20px 20px 20px;}
+	
+	#hee{
+		margin-top : 20px;
+		padding: 0px;
+		width : 120px;
+		height : 120px;
+		border : 2px solid silver;
+		border-radius : 50%;
+	}
+	
+	#hee1 {
+		width: 180px;
+		height: 180px;
+		border: 2px solid hotpink;
+		border-radius: 50%;
+	}
+	
+	#hee1:hover{
+		width: 300px;
+		height: 300px;
+		border: 2px thin solid hotpink;
+		border-radius: 50%;
+	}
+	
+	iframe { margin-bottom : 30px; border : 1px none silver;}
+	
+	table {border-collapse : collapse; width:80%; margin-left: auto; margin-right: auto; }
+  	th, td {border : 1px solid silver; padding : 5px; font-size : 12px;}
+
+  	.pic {margin :1px; margin-top:20px;}
+  	
+  	ul.inside-list {list-style-position: inside; text-align:justify; }
+	li.kor{list-style-image: url("/cv/resources/img/kor.gif"); margin-top:5px; font-size : 12px; color:#917DE6;}
+	li.usa{list-style-image: url("/cv/resources/img/usa.gif"); margin-top:5px; font-size : 12px; color:silver;}
+</style>
